@@ -1,0 +1,74 @@
+:root {
+  --white:hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+
+body 
+{
+  background: var(--light-gray);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container__main
+{
+  background: var(--white);
+  margin: 5em 1.5em;
+  padding: 1em 1em 2em 1em;
+  border-radius: 0.9em;
+  text-align: center;
+}
+
+.main__imagem
+{
+  width: 100%;
+  border-radius: 0.95em;
+}
+
+.main__titulo
+{
+  margin: 0.5em 0;
+  color: var(--dark-blue);
+  font-weight:700;
+  font-size: 22px;
+  padding: 0.5em 1em;
+}
+
+.main__descricao
+{
+  color:var(--grayish-blue);
+  margin: 0.5em;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none; 
+}
+
+
+
+@media screen and (min-width:1024px) {
+  
+  .container__main
+  {
+    margin: 5em auto;
+    width: 22.5vw;
+  }
+
+  .main__imagem
+  {
+    width: 100%;
+  }
+}
+
